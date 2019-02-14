@@ -1,0 +1,24 @@
+.price-heading {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5rem;
+  font-size: 4rem;
+  color: #fff;
+  letter-spacing: 8px;
+  font-family:'Changa One', cursive;
+}
+
+@media(max-width: 1200px){
+  .price-heading {
+    padding-top: 5rem;
+    font-size: 3.5rem;
+    letter-spacing: 8px;
+  }
+}
+@media(max-width: 768px){
+  .price-heading {
+    padding-top: 5rem;
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+  }
+}

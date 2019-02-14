@@ -1,0 +1,29 @@
+footer {
+  color: #119DA4;
+  height: 5rem;
+  background-color: #303952;
+}
+
+.footer-container {
+  width: 50%;
+  margin: 0 auto;
+}
+.copyright {
+  line-height: 5rem;
+  display: inline-block;
+}
+.social-icons {
+  float: right;
+}
+.social-icons img {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  height: 3rem;
+  display: inline-block;
+}
+
+@media(max-width: 768px){
+  .footer-container {
+    width: 90%;
+  } 
+}

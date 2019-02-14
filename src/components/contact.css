@@ -1,0 +1,175 @@
+.contact-section {
+  background: linear-gradient(
+    rgba(48, 57, 82, 0.45), rgba(39, 39, 39, 0.45) 
+  ),url('../images/god-of-war.jpg') top;
+  clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+  /* background-color: #48637c; */
+  padding: 3rem 0 3rem 0;
+}
+
+.contact-heading {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #fff;
+  letter-spacing: 8px;
+  font-family:'Changa One', 'Black Ops One', 'Racing Sans One', cursive;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input, textarea {
+  width: 50%;
+  margin-bottom: 5rem;
+  border: 1px solid #119DA4;
+  background: rgba(48, 57, 82, 0.41);
+  border-radius: 2rem;
+  color: #119DA4;
+  font-size: 1.8rem;
+  padding-left: 2.5rem;
+}
+
+input {
+  height: 4rem;
+}
+
+textarea {
+  resize: none;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.contact-button {
+  border: 1px solid #119DA4;
+  background: rgba(48, 57, 82, 0.41);
+  height: 4rem;
+  width: 20rem;
+  border-radius: 2rem;
+  color: #119DA4;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.contact-button:hover {
+  background: #119DA4;
+  color: #fff;
+  transition: all 0.5s ease-out;
+  border-color: transparent;
+}
+
+@media(max-width: 1200px){
+  contact-section {
+    clip-path: polygon(50% 10%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    /* background-color: #48637c; */
+    padding: 3rem 0 3rem 0;
+  }
+
+  .contact-heading {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    letter-spacing: 6px;
+  }
+
+  input, textarea {
+    width: 50%;
+    margin-bottom: 4rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    padding-left: 2.5rem;
+  }
+
+  input {
+    height: 4rem;
+  }
+
+  textarea {
+    resize: none;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+  }
+
+  .contact-button {
+    border: 1px solid #119DA4;
+    background: rgba(48, 57, 82, 0.41);
+    height: 4rem;
+    width: 20rem;
+    border-radius: 2rem;
+    color: #119DA4;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+
+  .contact-button:hover {
+    background: #119DA4;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    border-color: transparent;
+  }
+}
+
+@media(max-width: 768px){
+  .contact-section {
+    clip-path: polygon(50% 5%, 100% 0, 100% 100%, 50% 100%, 0 100%, 0 0);
+    /* background-color: #48637c; */
+    padding: 3rem 0 3rem 0;
+  }
+
+  .contact-heading {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    font-size: 2.4rem;
+    letter-spacing: 6px;
+  }
+
+  input, textarea {
+    width: 90%;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    padding-left: 2.5rem;
+  }
+
+  input {
+    height: 4rem;
+  }
+
+  textarea {
+    resize: none;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+  }
+
+  .contact-button {
+    border: 1px solid #119DA4;
+    background: rgba(48, 57, 82, 0.41);
+    height: 4rem;
+    width: 20rem;
+    border-radius: 2rem;
+    color: #119DA4;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+
+  .contact-button:hover {
+    background: #119DA4;
+    color: #fff;
+    transition: all 0.5s ease-out;
+    border-color: transparent;
+  }
+}

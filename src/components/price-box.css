@@ -1,0 +1,88 @@
+/* Price box */
+.price-box-section {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.price-box-container {
+  background-color:#119DA4;
+  margin: 3rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  font-family:'Changa One', 'Black Ops One', 'Racing Sans One', cursive;
+}
+.price-box-1 {
+  clip-path: polygon( 0 0, 100% 10%, 100% 100%, 0 90%, 0 0);
+}
+.price-box-2 {
+  clip-path: polygon( 0 10%, 100% 0, 100% 90%, 0 100%, 0 0);
+}
+.price-box-heading {
+  padding-bottom: 2rem;
+  padding-top: 6rem;
+  font-size: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2rem solid rgb(48, 57, 82);
+}
+.price-box-body {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.price-box-body > div:last-child {
+  border-bottom: 2rem solid rgb(48, 57, 82);
+  padding-bottom: 1rem;
+}
+.price-box-footer {
+  font-size: 3rem;
+  padding-bottom: 4rem;
+}
+
+@media(max-width: 1200px){
+  .price-box-section {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  .price-box-container {
+    margin: 2rem;
+  }
+  .price-box-heading {
+    padding-top: 4rem;
+    font-size: 3rem;
+  }
+  .price-box-body {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 768px){
+  .price-box-section {
+    flex-direction: column;
+  }
+  .price-box-container {
+    margin: 2rem auto;
+    width: 90%;
+  }
+  .price-box-heading {
+    padding-top: 3rem;
+  }
+  .price-box-body {
+    font-size: 2rem;
+  }
+  .price-box-footer {
+    padding-bottom: 2.5rem;
+  }
+  .price-box-1, .price-box-2 {
+    clip-path: polygon(50% 5%, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+  }
+}
