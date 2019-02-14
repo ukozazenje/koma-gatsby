@@ -23,6 +23,9 @@
   flex-direction: column;
   align-items: center;
 } */
+form {
+  text-align: center;
+}
 
 input, textarea {
   width: 50%;
