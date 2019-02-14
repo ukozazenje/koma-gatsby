@@ -14,7 +14,7 @@ export default function Contact() {
           <textarea name="message" id="message" cols="30" rows="8"></textarea>
           <button className="contact-button" type="submit">Send</button>
         </form> */}
-        <form name="contact" method="POST" data-netlify="true" className="contact-form">
+        <form name="contact" method="POST" data-netlify="true">
           <p>
             <input type="text" name="name" placeholder="Ime" />
           </p>
