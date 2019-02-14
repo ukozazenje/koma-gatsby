@@ -14,19 +14,11 @@ export default function Contact() {
           <textarea name="message" id="message" cols="30" rows="8"></textarea>
           <button className="contact-button" type="submit">Send</button>
         </form> */}
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
+        <form name="contact" method="POST" data-netlify="true" className="contact-form">
+          <input type="text" name="name" placeholder="Ime" />
+          <input type="email" name="email" placeholder="Email" />
+          <textarea name="message" cols="30" rows="8"></textarea>
+          <button className="contact-button" type="submit">Send</button>
         </form>
       </div>
   </section>
