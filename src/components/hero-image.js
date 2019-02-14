@@ -13,8 +13,8 @@ export default function heroImage() {
             <span className="heading-primary-main">KoMa KRALJEVO</span>
             <span className="heading-primary-sub">Iznamljivanje sony konzola</span>
           </h1>
-          <span className="heading-primary-price">064/13-080-87 i 064/13-080-87</span>
-          <a href="" className="btn btn-white btn-animated">Kontaktirajte nas</a>
+          <span className="heading-primary-price">064/13-080-87 i 069/322-98-44</span>
+          <a href="#contact" className="btn btn-white btn-animated">Kontaktirajte nas</a>
         </div>
     </div>
   )
