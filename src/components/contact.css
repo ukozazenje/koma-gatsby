@@ -18,7 +18,7 @@
   font-family:'Changa One', 'Black Ops One', 'Racing Sans One', cursive;
 }
 
-.contact-section  form {
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
