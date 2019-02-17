@@ -1,7 +1,7 @@
 .button_container {
   position: fixed;
-  top: 5%;
-  right: 2%;
+  top: 1.5rem;
+  right:1.5rem;
   height: 27px;
   width: 35px;
   cursor: pointer;
