@@ -11,8 +11,8 @@ export default function footer() {
           © {new Date().getFullYear()}, Koma
       </div>
         <div className="social-icons">
-          <img src={facebook} alt="instagram-icon" />
-          <img src={instagram} alt="facebook-icon" />
+          <a href="https://www.facebook.com/KoMa-Sony-PS4-Kraljevo-2062130713863246"><img src={facebook} alt="instagram-icon" /></a>
+          <a href="https://www.instagram.com/komakraljevo"><img src={instagram} alt="facebook-icon" /></a>
       </div>
     </div>
     </footer>
