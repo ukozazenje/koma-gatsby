@@ -8,7 +8,7 @@ export default function Contact() {
         <h2 style={{'margin': 0}}>KONTAKT</h2>
       </div>
       <div className="contact-container">
-        <form name="contact" method="POST" data-netlify="true">
+        <form action="/success" name="contact" method="POST" data-netlify="true">
           <p>
             <input type="text" name="name" placeholder="Ime" />
           </p>
