@@ -8,7 +8,8 @@ export default function Contact() {
         <h2 style={{'margin': 0}}>KONTAKT</h2>
       </div>
       <div className="contact-container">
-        <form action="/success" name="contact" method="POST" data-netlify="true">
+        <form action="/success" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="bot-field" />
           <p>
             <input type="text" name="name" placeholder="Ime" />
           </p>
@@ -18,7 +19,7 @@ export default function Contact() {
           <p>
             <textarea name="message" cols="30" rows="8"></textarea>
           </p>
-          <button className="contact-button" type="submit">Send</button>
+          <input value="Send" className="contact-button" type="submit" />
         </form>
       </div>
   </section>
