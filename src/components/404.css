@@ -1,0 +1,30 @@
+.not-found-page {
+  background-image: url(../images/ps4-games-wallpaper.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  height: 100vh;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+}
+
+.not-found-page-box h1:first-child {
+  font-size: 22rem;
+  letter-spacing: 2rem;
+  color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.back-link {
+  color: #fff;
+  font-size: 2rem;
+  line-height:1.7;
+}

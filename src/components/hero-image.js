@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './hero-image.css'
 import Logo from './logo-image'
 import Menu from './menu'
-import ToggleButton from './toggleButton'
 
 class heroImage extends Component {
 
