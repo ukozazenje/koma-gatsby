@@ -11,7 +11,7 @@ export default function PriceBox() {
           <div>2 igrice</div>
         </div>
         <div className="price-box-footer">
-          <div>1200din</div>
+          <div>1000din</div>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ export default function PriceBox() {
           <div>2 igrice</div>
         </div>
         <div className="price-box-footer">
-          <div>2400 DIN + 24h</div>
+          <div>2000 DIN + 24h</div>
         </div>
       </div>
     </section>
